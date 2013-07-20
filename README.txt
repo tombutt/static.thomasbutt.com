@@ -1,1 +1,1 @@
-Insert some clever text here.\n
+This is a simple static site I'm making for a personal site.  I'm calling it a living resume.  This means as I do new things, I'll add new sections to the site.  Nothing fancy, just a way to do something more creative than put my skills on a single sheet of paper and hope somebody sees them.
