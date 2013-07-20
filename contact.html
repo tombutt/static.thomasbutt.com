@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Thomas Butt Dynamic Contact</title>
+<meta name="keywords" content="general template, free css templates, website templates" />
+<meta name="description" content="General is a Free CSS Template provided by templatemo.com" />
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="templatemo_header_wrapper">
+	
+    <div id="templatemo_header">
+    
+    	<div id="site_title">
+            <h1><a href="http://www.templatemo.com" target="_parent">
+                <img src="images/header_thomasbutt.png" alt="General Template" width="157" height="24" />
+                <span> Dynamic Contact</span>
+            </a></h1>
+      	</div>
+        
+	</div> <!-- end of templatemo_header -->
+</div> <!-- end of templatemo_header_wrapper -->   
+
+<div id="templatemo_banner_wrapper">
+
+	<div id="templatemo_banner">
+    
+    	<h2>Contact Me Dynamically<span>In addition to the typical email form, I've added a couple different ways to contact me.</span></h2>
+      <p>As a simple exercise, I've created a simple way to contact me through different services.  Pick the method you would like, and I'll get back in touch with you soon! Even boring email.</p>
+    
+    </div> <!-- end of templatemo_banner -->
+    
+</div> <!-- end of templatemo_banner_wrapper -->
+
+<div id="templatemo_menu_wrapper">
+
+    <div id="templatemo_menu">
+    
+        <ul>
+            <li><a href="index.html"><span class="home">Home</span></a></li>
+            <li><a href="about.html"><span class="aboutus">About</span></a></li>
+            <li><a href="#"><span class="services">Services</span></a></li>
+            <li><a href="work.html"><span class="gallery">Work</span></a></li>
+            <li><a href="resume.html"><span class="news">Resume</span></a></li>
+            <li><a href="contact.html" class="current"><span class="contact">Contact</span></a></li>
+        </ul>    	
+    
+    </div> <!-- end of templatemo_menu -->
+</div> <!-- end of templatemo_menu_wrapper -->    
+
+<div id="templatemo_content_wrapper">
+    
+    <div id="templatemo_content">
+    
+         <div class="content_section">
+         
+         	<h2>Pick Your Method of Contacting Me!</h2>
+        
+     		<div class="section_410 float_l">
+            	 
+<div class="service_text">
+                     <h3>Email</h3>
+                     <p>Really? This is what you do after the work I put in?<a href="mailto:tom.butt@gmail.com?subject=BoringContact
+&body=Contact from your website!">Email Me</a></p>
+                 </div>
+                 
+            </div>
+            
+            <div class="section_410 float_r">
+            
+<div class="service_text">
+                     <h3>SNS</h3>
+                     <p>This is a bit more interesting.  Sending off a message to an AWS SNS that I'm subscribed to!  This does send a message to a node.js server which actually sends the message to AWS SNS.
+                     <form name"snsemail" action="http://thomasbutt.com/node/email/sqs" method="post">
+                     <fieldset>
+                     <legend>Email Information</legend>
+                     <p><label class="field" for="Email">Email:</label><input type="text" class="textbox-300" name="email"></p>
+                     <p><label class="field" for="Subject">Subject:</label><input type="text" class="textbox-300" name="subject"></p>
+                     <p><label class="field" for="Body">Body:</label><input type type="text" class="textbox-300" name="body"></p>
+                     </fieldset>
+                     <input type="submit" value="submit">
+                     </form>
+                 </div>
+            	
+            </div>
+         
+         	<div class="cleaner"></div>
+         </div>
+         
+          <div class="content_section">
+        
+     		<div class="section_410 float_l">
+            	 
+                <h2>node.js direct</h2>
+                <p align="justify">This sends a message to node.js which will directly send me an email.  No SNS or any other oddness, just node.js at its best.</p>
+                     <form name"nodejsmail" action="http://thomasbutt.com/node/email/sqs" method="post">
+                     <fieldset>
+                     <legend>Email Information</legend>
+                     <p><label class="field" for="Email">Email:</label><input type="text" class="textbox-300" name="email"></p>
+                     <p><label class="field" for="Subject">Subject:</label><input type="text" class="textbox-300" name="subject"></p>
+                     <p><label class="field" for="Body">Body:</label><input type type="text" class="textbox-300" name="body"></p>
+                     </fieldset>
+                     <input type="submit" value="submit">
+                     </form>
+            </div>
+            
+            <div class="section_410 float_r">
+            
+            	<h2>SQS</h2>
+                
+                    <p align="justify">As you know, I enjoy AWS. So, in this case, we're going to put a message on SQS, and have a subscriber pick it up to send off the email.  Email away!</p>
+                     <form name"sqsemail" action="http://thomasbutt.com/node/email/sqs" method="post">
+                     <fieldset>
+                     <legend>Email Information</legend>
+                     <p><label class="field" for="Email">Email:</label><input type="text" class="textbox-300" name="email"></p>
+                     <p><label class="field" for="Subject">Subject:</label><input type="text" class="textbox-300" name="subject"></p>
+                     <p><label class="field" for="Body">Body:</label><input type type="text" class="textbox-300" name="body"></p>
+                     </fieldset>
+                     <input type="submit" value="submit">
+                     </form>
+            </div>
+         	<div class="cleaner"></div>
+         </div>
+   
+    </div> <!-- end of templatemo_content -->
+</div> <!-- end of templatemo_content_wrapper -->    
+    
+<div id="templatemo_footer_wrapper">
+
+<div id="templatemo_footer">
+
+    <div class="section_w300">
+        
+        <h3>Site  Partners</h3>
+        
+        <div class="sub_content">
+            <ul class="footer_list">
+                <li><a href="http://www.templatemo.com/page/1" target="_parent">Free CSS Templates</a></li>
+                <li><a href="http://www.flashmo.com/page/1" target="_parent">Free Flash Templates</a></li>
+                <li><a href="http://www.flashmo.com/store" target="_parent">Premium Templates</a></li>
+                <li><a href="http://www.webdesignmo.com" target="_parent">Web Design Blog</a></li>
+                <li><a href="http://www.koflash.com">Best Flash Gallery</a></li>               
+            </ul>
+        </div>
+        
+    </div>
+    
+    <div class="section_w300">
+        
+        <h3>Other Links</h3>
+        
+        <div class="sub_content">
+            <ul class="footer_list">
+                <li><a href="#">Lorem ipsum dolor</a></li>
+                <li><a href="#">Cum sociis</a></li>
+                <li><a href="#">Donec quam</a></li>
+                <li><a href="#">Nulla consequat</a></li>
+                <li><a href="#">In enim justo</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <div class="section_w300">
+        
+        <h3>Privacy Policy</h3>
+        
+        <div class="sub_content">
+            <p>Nullam ultrices tempor nisi, ac egestas diam aliquam a. Ut eleifend semper turpis, id feugiat arcu dignissim eu. Donec mattis adipiscing imperdiet.</p>
+        </div>
+        
+    </div>
+    
+    <div class="cleaner_h40"></div>
+
+    <center>
+        Copyright © 2048 <a href="#">Your Company Name</a> | 
+        Designed by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a> | 
+        Validate <a href="http://validator.w3.org/check?uri=referer">XHTML</a> &amp; 
+        		 <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+    </center>
+    
+</div> <!-- end of footer -->
+</div>
+</body>
+</html>
